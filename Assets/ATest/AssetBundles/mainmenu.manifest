@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 600252755
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 20f5836e1230821d08d4dd52a9c48998
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ATest/Resources/UI/Mainmenu/jm_xuanjuese_23.png
+- Assets/ATest/Resources/UI/splash.jpg
+- Assets/ATest/Resources/UI/Mainmenu/jm_xuanjuese_23_1.png
+Dependencies: []

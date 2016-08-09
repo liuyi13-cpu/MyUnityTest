@@ -1,0 +1,19 @@
+﻿using UnityEngine;
+public class Debugger
+{
+    public static void Log(object message)
+    {
+        if (Debug.isDebugBuild)
+            Debug.Log("<color=green>" + message + "</color>");
+    }
+
+    public static void LogError(object message)
+    {
+        Debug.LogError("<color=red>" + message + "</color>");
+    }
+
+    public static void LogWarning(object message)
+    {
+        Debug.LogWarning("<color=yellow>" + message + "</color>");
+    }
+}
