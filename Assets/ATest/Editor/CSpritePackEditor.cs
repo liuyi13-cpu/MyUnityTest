@@ -45,8 +45,6 @@ class SoritePacker
         }
     }
 
-    static float matAtlasSize = 2048;
-    static float padding = 1;
     private static List<SpriteInfo> spriteList = new List<SpriteInfo>();
 
     [MenuItem("Assets/AtlasCreate")]
@@ -152,7 +150,7 @@ class SoritePacker
     static public void PackAndOutputSprites(Texture2D[]  texs, string atlasAssetPath, string outputPath)
     {
         Texture2D atlas = new Texture2D(1, 1);
-        Rect[] rs = atlas.PackTextures(texs, (int)padding, (int)matAtlasSize);
+        Rect[] rs = atlas.PackTextures(texs, 0);
         // output atlas bytes
         File.WriteAllBytes(outputPath, atlas.EncodeToPNG());
         RefreshAsset(atlasAssetPath);

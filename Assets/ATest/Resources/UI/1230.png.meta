@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 55374a3fd9bb8c9419a69ba52ac623b2
-timeCreated: 1471432879
+guid: 6b6f014402a802c4cac08c28e77f7119
+timeCreated: 1471451422
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: jm_xuanjuese_23_1
-    21300002: jm_xuanjuese_23
+    21300000: jm_xuanjuese_23
+    21300002: jm_xuanjuese_23_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -55,12 +55,12 @@ TextureImporter:
     - name: jm_xuanjuese_23
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 2
+        y: 173
         width: 298
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 145, y: 40.5}
@@ -74,12 +74,12 @@ TextureImporter:
     - name: jm_xuanjuese_23_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 82
+        x: 2
+        y: 90
         width: 298
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 145, y: 40.5}
