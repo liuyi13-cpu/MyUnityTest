@@ -1,15 +1,21 @@
 @echo on
 
-set TOOL=D:\work\github\MyUnityTest\Data\Tools\TexturePacker\bin\TexturePacker.exe
-set OUTPATH=..\Assets\ATest\TexturePacker\
+set TOOL=Tools\TexturePacker\bin\TexturePacker.exe
+set OUTPATH=Test
 echo ********************************
 echo *******  export plist  *********
 echo ********************************
 
-del /S/F/Q %OUTPATH%\*.png > NUL
-del /S/F/Q %OUTPATH%\*.tpsheet > NUL
 
-call %TOOL% Main --data %OUTPATH%\Main_{n}.tpsheet --sheet %OUTPATH%\Main_{n}.png --format unity-texture2d --size-constraints POT --multipack --algorithm MaxRects --trim-mode None
+rem set DATA_IN_PATH=Main,MOS_bullet
+set DATA_IN_PATH=Main
+for %%i in (%DATA_IN_PATH%) do (
+	del /S/F/Q %OUTPATH%\%DATA_IN_PATH%.png > NUL
+	del /S/F/Q %OUTPATH%\%DATA_IN_PATH%.tpsheet > NUL
+	call %TOOL% %DATA_IN_PATH% --data %OUTPATH%\%DATA_IN_PATH%.tpsheet --sheet %OUTPATH%\%DATA_IN_PATH%.png --format unity-texture2d --size-constraints POT --multipack --algorithm MaxRects --trim-mode None
+	rem call %TOOL% Main --data %OUTPATH%\Main_{n}.tpsheet --sheet %OUTPATH%\Main_{n}.png --format unity-texture2d --size-constraints POT --multipack --algorithm MaxRects --trim-mode None
+)
+
 
 rem xcopy /y /s homegamescene ..\Resources\image
 
