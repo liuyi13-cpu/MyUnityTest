@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: a5f83e481d41af840a4cfe83f2acf404
+timeCreated: 1471490381
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Button_Main_Add
+    21300002: Button_Main_Special
+    21300004: Frame_MainInterface_001
+    21300006: Frame_MainInterface_002
+    21300008: Frame_MainInterface_003
+    21300010: Frame_Main_Text
+    21300012: Frame_Setting
+    21300014: Frame_Setting_ON
+    21300016: IconButton_Main_ZY
+    21300018: IconButton_Main_ZZZL
+    21300020: Icon_Button_Expand
+    21300022: Icon_Button_PutAway
+    21300024: Icon_MainInterface_FightingForce
+    21300026: Images_Button_Background_Shine
+    21300028: Main_Icon_Activities
+    21300030: Main_Icon_Background
+    21300032: Main_Icon_Charge
+    21300034: Main_Icon_Exchange
+    21300036: Main_Icon_Medal
+    21300038: Main_Icon_RedEnvelope
+    21300040: Main_Icon_Services
+    21300042: Main_Icon_Shop
+    21300044: Main_Icon_Sign
+    21300046: Main_Resources_Background
+    21300048: Main_task_01
+    21300050: Main_task_02
+    21300052: Point_MainInterface_001
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Button_Main_Add
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 515
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: -23}
+        - {x: -23, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 22}
+        - {x: 23, y: 28}
+    - name: Button_Main_Special
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 876
+        width: 168
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 73}
+        - {x: -84, y: 9}
+        - {x: -84, y: -13}
+        - {x: -45, y: -73}
+        - {x: 45, y: -73}
+        - {x: 84, y: -17}
+        - {x: 84, y: 10}
+        - {x: 51, y: 73}
+    - name: Frame_MainInterface_001
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 459
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 27}
+        - {x: -27, y: -27}
+        - {x: 27, y: -27}
+        - {x: 27, y: 27}
+    - name: Frame_MainInterface_002
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 654
+        width: 126
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 27}
+        - {x: -63, y: 16}
+        - {x: -54, y: -27}
+        - {x: 60, y: -27}
+        - {x: 63, y: -22}
+        - {x: 63, y: 20}
+        - {x: 58, y: 27}
+    - name: Frame_MainInterface_003
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 857
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Frame_Main_Text
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 467
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 21}
+        - {x: -21, y: -21}
+        - {x: 21, y: -21}
+        - {x: 21, y: 21}
+    - name: Frame_Setting
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 710
+        width: 150
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 82}
+        - {x: -75, y: 49}
+        - {x: -75, y: -63}
+        - {x: -35, y: -82}
+        - {x: 46, y: -82}
+        - {x: 75, y: -52}
+        - {x: 75, y: 49}
+        - {x: 25, y: 82}
+    - name: Frame_Setting_ON
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 672
+        width: 150
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 82}
+        - {x: -75, y: 49}
+        - {x: -75, y: -63}
+        - {x: -35, y: -82}
+        - {x: 46, y: -82}
+        - {x: 75, y: -52}
+        - {x: 75, y: 49}
+        - {x: 25, y: 82}
+    - name: IconButton_Main_ZY
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 684
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 38}
+        - {x: -35, y: 30}
+        - {x: -35, y: -2}
+        - {x: -30, y: -38}
+        - {x: 28, y: -38}
+        - {x: 35, y: -35}
+        - {x: 35, y: 30}
+        - {x: 31, y: 38}
+    - name: IconButton_Main_ZZZL
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 439
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 35}
+        - {x: -23, y: 35}
+        - {x: -39, y: 8}
+        - {x: -39, y: -34}
+        - {x: -31, y: -33}
+        - {x: -20, y: -35}
+        - {x: 26, y: -35}
+        - {x: 39, y: -20}
+        - {x: 39, y: -3}
+        - {x: 26, y: 15}
+    - name: Icon_Button_Expand
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 679
+        width: 127
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 70.5}
+        - {x: -63.5, y: -55.5}
+        - {x: -16.5, y: -70.5}
+        - {x: 30.5, y: -70.5}
+        - {x: 63.5, y: -45.5}
+        - {x: 63.5, y: 70.5}
+    - name: Icon_Button_PutAway
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 511
+        width: 123
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 70.5}
+        - {x: -61.5, y: 49.5}
+        - {x: -61.5, y: -56.5}
+        - {x: -22.5, y: -70.5}
+        - {x: 31.5, y: -70.5}
+        - {x: 61.5, y: -46.5}
+        - {x: 61.5, y: 43.5}
+        - {x: 21.5, y: 70.5}
+    - name: Icon_MainInterface_FightingForce
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 640
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Images_Button_Background_Shine
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 838
+        width: 226
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: 62}
+        - {x: 62, y: 87}
+        - {x: 43, y: 92}
+        - {x: -67, y: 92}
+        - {x: -109, y: 63}
+        - {x: -113, y: 54}
+        - {x: -113, y: -34}
+        - {x: -78, y: -80}
+        - {x: -62, y: -92}
+        - {x: 68, y: -92}
+        - {x: 92, y: -86}
+        - {x: 113, y: -40}
+    - name: Main_Icon_Activities
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 930
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 46}
+        - {x: -55, y: 38}
+        - {x: -55, y: -44}
+        - {x: -52, y: -46}
+        - {x: 55, y: -46}
+        - {x: 55, y: 44}
+        - {x: 54, y: 46}
+    - name: Main_Icon_Background
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 573
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 52}
+        - {x: -60, y: 30}
+        - {x: -60, y: -15}
+        - {x: -46, y: -52}
+        - {x: 41, y: -52}
+        - {x: 60, y: -11}
+        - {x: 60, y: 19}
+        - {x: 36, y: 52}
+    - name: Main_Icon_Charge
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 536
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 49}
+        - {x: -53, y: 35}
+        - {x: -53, y: -31}
+        - {x: -52, y: -42}
+        - {x: -21, y: -49}
+        - {x: 24, y: -49}
+        - {x: 53, y: -36}
+        - {x: 53, y: 40}
+        - {x: 32, y: 49}
+    - name: Main_Icon_Exchange
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 475
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 48}
+        - {x: -44, y: -48}
+        - {x: 42, y: -48}
+        - {x: 44, y: -43}
+        - {x: 44, y: 44}
+        - {x: 43, y: 48}
+    - name: Main_Icon_Medal
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 472
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 54}
+        - {x: -47, y: 35}
+        - {x: -47, y: -47}
+        - {x: -17, y: -54}
+        - {x: 20, y: -54}
+        - {x: 47, y: -47}
+        - {x: 47, y: 42}
+        - {x: 46, y: 54}
+    - name: Main_Icon_RedEnvelope
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 582
+        width: 112
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 44}
+        - {x: -25, y: 44}
+        - {x: -56, y: 23}
+        - {x: -56, y: -5}
+        - {x: -40, y: -44}
+        - {x: 47, y: -44}
+        - {x: 52, y: -39}
+        - {x: 56, y: -17}
+        - {x: 56, y: 39}
+    - name: Main_Icon_Services
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 430
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 52}
+        - {x: -45, y: 43}
+        - {x: -45, y: -48}
+        - {x: -23, y: -52}
+        - {x: 33, y: -52}
+        - {x: 45, y: -46}
+        - {x: 45, y: 52}
+    - name: Main_Icon_Shop
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 822
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: -1}
+        - {x: -30, y: -53}
+        - {x: 54, y: -53}
+        - {x: 54, y: 28}
+        - {x: 50, y: 48}
+        - {x: 41, y: 53}
+        - {x: -34, y: 53}
+        - {x: -54, y: 47}
+    - name: Main_Icon_Sign
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 370
+        width: 88
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 50}
+        - {x: -44, y: -50}
+        - {x: 43, y: -50}
+        - {x: 44, y: -49}
+        - {x: 44, y: 40}
+        - {x: 34, y: 50}
+    - name: Main_Resources_Background
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 636
+        width: 4
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Main_task_01
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 638
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Main_task_02
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 636
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 23}
+        - {x: -32, y: -23}
+        - {x: 32, y: -23}
+        - {x: 32, y: 23}
+    - name: Point_MainInterface_001
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 762
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 37}
+        - {x: -37, y: 26}
+        - {x: -37, y: -35}
+        - {x: -31, y: -37}
+        - {x: 37, y: -37}
+        - {x: 37, y: 24}
+        - {x: 32, y: 37}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
