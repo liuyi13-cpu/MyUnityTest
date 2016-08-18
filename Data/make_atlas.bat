@@ -9,7 +9,7 @@ echo ********************************
 del /S/F/Q %OUTPATH%\*.png > NUL
 del /S/F/Q %OUTPATH%\*.tpsheet > NUL
 
-call %TOOL% Main --data %OUTPATH%\Main_{n}.tpsheet --sheet %OUTPATH%\Main_{n}.png --format unity-texture2d --size-constraints POT --multipack --trim-mode Crop
+call %TOOL% Main --data %OUTPATH%\Main_{n}.tpsheet --sheet %OUTPATH%\Main_{n}.png --format unity-texture2d --size-constraints POT --multipack --algorithm MaxRects --trim-mode None
 
 rem xcopy /y /s homegamescene ..\Resources\image
 
