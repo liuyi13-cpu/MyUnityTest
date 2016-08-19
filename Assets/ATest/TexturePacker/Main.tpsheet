@@ -1,0 +1,37 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Main.png (512 x 1024)
+# $TexturePacker:SmartUpdate:61e0f51370d5c8ae0fe472321b8a1caa:35a5c286c90200977bba609ae41ef704:a51e1c733bd95c2344351166cb293d60$
+#
+
+Button_Main_Add;154;656;56;56;0.5;0.5
+Button_Main_Special;230;876;168;146;0.5;0.5
+Frame_MainInterface_001;134;600;54;54;0.5;0.5
+Frame_MainInterface_002;2;88;126;54;0.5;0.5
+Frame_MainInterface_003;480;933;16;17;0.5;0.5
+Frame_Main_Text;134;502;42;42;0.5;0.5
+Frame_Setting;230;710;150;164;0.5;0.5
+Frame_Setting_ON;2;672;150;164;0.5;0.5
+IconButton_Main_ZY;400;946;78;76;0.5;0.5
+IconButton_Main_ZZZL;400;868;78;76;0.5;0.5
+Icon_Button_Expand;382;723;127;143;0.5;0.5
+Icon_Button_PutAway;382;578;127;143;0.5;0.5
+Icon_MainInterface_FightingForce;134;546;52;52;0.5;0.5
+Images_Button_Background_Shine;2;838;226;184;0.5;0.5
+Main_Icon_Activities;2;540;130;130;0.5;0.5
+Main_Icon_Background;212;578;130;130;0.5;0.5
+Main_Icon_Charge;188;446;130;130;0.5;0.5
+Main_Icon_Exchange;2;408;130;130;0.5;0.5
+Main_Icon_Medal;320;446;130;130;0.5;0.5
+Main_Icon_RedEnvelope;134;314;130;130;0.5;0.5
+Main_Icon_Services;2;276;130;130;0.5;0.5
+Main_Icon_Shop;266;314;130;130;0.5;0.5
+Main_Icon_Sign;2;144;130;130;0.5;0.5
+Main_Resources_Background;506;974;4;48;0.5;0.5
+Main_task_01;480;952;24;70;0.5;0.5
+Main_task_02;154;714;64;46;0.5;0.5
+Point_MainInterface_001;154;762;74;74;0.5;0.5

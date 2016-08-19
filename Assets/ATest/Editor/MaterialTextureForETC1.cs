@@ -115,7 +115,7 @@ public class MaterialTextureForETC1
         ReImportAsset(RGBTexRelativePath, ti);
         ReImportAsset(alphaTexRelativePath, ti);
 
-        AssetDatabase.DeleteAsset(assetRelativePath);
+        // AssetDatabase.DeleteAsset(assetRelativePath);
 
         Debug.Log("Succeed Departing : " + assetRelativePath);
     }

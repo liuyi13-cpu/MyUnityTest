@@ -40,5 +40,4 @@ public class ATest_UI : MonoBehaviour
             _index = value;
         }
     }
-
 }

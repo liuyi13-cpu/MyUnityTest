@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
+using UnityEngine.UI;
 
 // 绑定对象
 [CustomEditor(typeof(ATest_UI))]
@@ -43,5 +44,20 @@ public class ATest_UI_Editor : Editor
         test.m_index = EditorGUILayout.IntPopup(test.m_index, b, a );
 
         // Repaint();
+
+        var img = test.GetComponent<Image>();
+        if (img)
+        {
+            Debugger.Log("sprite    " + img.sprite);
+            Debugger.Log("overrideSprite    " + img.overrideSprite);
+            if (img.material)
+            {
+                Debugger.Log("material  " + img.material.mainTexture);
+                img.material.color = img.color;
+                Debugger.Log("material color  " + img.material.color);
+            }
+            Debugger.Log("mainTexture  " + img.mainTexture);
+            Debugger.Log("color  " + img.color);
+        }
     }
 }

@@ -1,10 +1,10 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
-- Assets/ATest/TexturePacker/Main_0.tpsheet
+- Assets/ATest/TexturePacker/Main.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
-- Assets/ATest/TexturePacker/Main_0.png
+- Assets/ATest/TexturePacker/Main.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
 - 

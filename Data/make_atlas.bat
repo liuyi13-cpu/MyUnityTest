@@ -1,7 +1,7 @@
 @echo on
 
 set TOOL=Tools\TexturePacker\bin\TexturePacker.exe
-set OUTPATH=Test
+set OUTPATH=..\Assets\ATest\TexturePacker
 echo ********************************
 echo *******  export plist  *********
 echo ********************************
@@ -10,8 +10,8 @@ echo ********************************
 rem set DATA_IN_PATH=Main,MOS_bullet
 set DATA_IN_PATH=Main
 for %%i in (%DATA_IN_PATH%) do (
-	del /S/F/Q %OUTPATH%\%DATA_IN_PATH%.png > NUL
-	del /S/F/Q %OUTPATH%\%DATA_IN_PATH%.tpsheet > NUL
+	rem del /S/F/Q /AH %OUTPATH%\%DATA_IN_PATH%.png.meta > NUL
+	rem del /S/F/Q %OUTPATH%\%DATA_IN_PATH%.tpsheet > NUL
 	call %TOOL% %DATA_IN_PATH% --data %OUTPATH%\%DATA_IN_PATH%.tpsheet --sheet %OUTPATH%\%DATA_IN_PATH%.png --format unity-texture2d --size-constraints POT --multipack --algorithm MaxRects --trim-mode None
 	rem call %TOOL% Main --data %OUTPATH%\Main_{n}.tpsheet --sheet %OUTPATH%\Main_{n}.png --format unity-texture2d --size-constraints POT --multipack --algorithm MaxRects --trim-mode None
 )
