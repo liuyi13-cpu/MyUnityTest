@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: aacd8897216061e4fb2a9e27ec0071f1
-timeCreated: 1471431661
+guid: 4b515e1813cbf9746b965ba444080d67
+timeCreated: 1471838966
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName: {}
@@ -10,7 +10,7 @@ TextureImporter:
     enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
-    fadeOut: 1
+    fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
@@ -19,14 +19,14 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: 4
+  textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1

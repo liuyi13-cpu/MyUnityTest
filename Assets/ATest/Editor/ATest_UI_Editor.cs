@@ -55,9 +55,16 @@ public class ATest_UI_Editor : Editor
                 Debugger.Log("material  " + img.material.mainTexture);
                 img.material.color = img.color;
                 Debugger.Log("material color  " + img.material.color);
+
+                // img.material.SetTexture("_AlphaTex", null);
             }
             Debugger.Log("mainTexture  " + img.mainTexture);
             Debugger.Log("color  " + img.color);
+
+            
+            var render = img.GetComponent<CanvasRenderer>();
+            // render.GetMaterial().SetTexture("Alpha Texture", null);
+            // render.SetPropertyBlock();
         }
     }
 }

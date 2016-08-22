@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: 9a60f364075ecde48bd58af12ad79f8c
-timeCreated: 1471597936
+guid: 79d5cbb8655326648bd77040dfb3de03
+timeCreated: 1471590894
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Button_Main_Add
-    21300002: Button_Main_Special
-    21300004: Frame_MainInterface_001
-    21300006: Frame_MainInterface_002
-    21300008: Frame_MainInterface_003
-    21300010: Frame_Main_Text
-    21300012: Frame_Setting
-    21300014: Frame_Setting_ON
-    21300016: IconButton_Main_ZY
-    21300018: IconButton_Main_ZZZL
-    21300020: Icon_Button_Expand
-    21300022: Icon_Button_PutAway
-    21300024: Icon_MainInterface_FightingForce
-    21300026: Images_Button_Background_Shine
-    21300028: Main_Icon_Activities
-    21300030: Main_Icon_Background
-    21300032: Main_Icon_Charge
-    21300034: Main_Icon_Exchange
-    21300036: Main_Icon_Medal
-    21300038: Main_Icon_RedEnvelope
-    21300040: Main_Icon_Services
-    21300042: Main_Icon_Shop
-    21300044: Main_Icon_Sign
-    21300046: Main_Resources_Background
-    21300048: Main_task_01
-    21300050: Main_task_02
-    21300052: Point_MainInterface_001
+    21300000: Frame_MainInterface_001
+    21300002: Frame_MainInterface_003
+    21300004: Point_MainInterface_001
+    21300006: Icon_MainInterface_FightingForce
+    21300008: Frame_MainInterface_002
+    21300010: Icon_Button_Expand
+    21300012: Icon_Button_PutAway
+    21300014: Main_Resources_Background
+    21300016: Main_task_01
+    21300018: Button_Main_Add
+    21300020: Main_task_02
+    21300022: IconButton_Main_ZY
+    21300024: Images_Button_Background_Shine
+    21300026: IconButton_Main_ZZZL
+    21300028: Button_Main_Special
+    21300030: Frame_Main_Text
+    21300032: Frame_Setting_ON
+    21300034: Frame_Setting
+    21300036: Main_Icon_Services
+    21300038: Main_Icon_Sign
+    21300040: Main_Icon_Background
+    21300042: Main_Icon_Charge
+    21300044: Main_Icon_Activities
+    21300046: Main_Icon_Shop
+    21300048: Main_Icon_Exchange
+    21300050: Main_Icon_RedEnvelope
+    21300052: Main_Icon_Medal
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -50,20 +50,20 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
+  cubemapConvolutionSteps: 4
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 1
     aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
-  compressionQuality: 50
+  compressionQuality: -1
   allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
@@ -74,7 +74,12 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 0
+    allowsAlphaSplitting: 0
   spriteSheet:
     sprites:
     - name: Button_Main_Add
@@ -122,7 +127,7 @@ TextureImporter:
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 4, z: 0, w: 4}
       outline:
       - - {x: -27, y: 27}
         - {x: -27, y: -27}
@@ -137,7 +142,7 @@ TextureImporter:
         height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 15, y: 0, z: 102, w: 0}
       outline:
       - - {x: -63, y: 27}
         - {x: -63, y: 16}
@@ -514,7 +519,7 @@ TextureImporter:
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 23, z: 1, w: 23}
       outline: []
     - name: Main_task_01
       rect:
@@ -525,7 +530,7 @@ TextureImporter:
         height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 19, y: 37, z: 1, w: 13}
       outline: []
     - name: Main_task_02
       rect:
@@ -536,7 +541,7 @@ TextureImporter:
         height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 56, y: 0, z: 5, w: 0}
       outline:
       - - {x: -32, y: 23}
         - {x: -32, y: -23}
