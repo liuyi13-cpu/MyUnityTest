@@ -11,5 +11,8 @@ public class ATest_Test : MonoBehaviour
             var tex = mat.GetTexture("_AlphaTex");
             mat.SetTexture("_AlphaTex", null);
         }
+
+        var cachedTransform = transform;
+        cachedTransform.position = new Vector3(100, 0,0);
     }
 }
