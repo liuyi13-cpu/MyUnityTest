@@ -25,7 +25,7 @@ namespace Gc.Game.Test
         {
             // TestDebug();
             // Test_unsafe();
-            TestType testType = TestType.TestType_Lua;
+            TestType testType = TestType.TestType_Macro;
             ATest_Base test = null;
             switch (testType)
             {

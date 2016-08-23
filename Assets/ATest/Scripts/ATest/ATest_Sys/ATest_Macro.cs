@@ -5,6 +5,7 @@
 #define TEST_MACRO1
 
 using System;
+using System.Reflection;
 using System.Text;
 using UnityEngine;
 
@@ -90,6 +91,19 @@ namespace Gc.Game.Test
 #if DEVELOPMENT_BUILD
             Debugger.Log("DEVELOPMENT_BUILD");
 #endif
+
+            // Mono version
+            Type type = Type.GetType("Mono.Runtime");
+            if (type != null)
+            {
+
+                MethodInfo displayName = type.GetMethod("GetDisplayName", BindingFlags.NonPublic | BindingFlags.Static);
+
+                if (displayName != null)
+                {
+                    Debug.Log(displayName.Invoke(null, null));
+                }
+            }
         }
     #endregion define
     }
