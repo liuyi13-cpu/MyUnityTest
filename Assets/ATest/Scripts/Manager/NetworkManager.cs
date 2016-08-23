@@ -7,14 +7,10 @@ public class NetworkManager : Base
     SocketClient m_socket;
     static Queue<KeyValuePair<int, ByteBuffer>> sEvents = new Queue<KeyValuePair<int, ByteBuffer>>();
 
-    public NetworkManager()
-    {
-        m_socket = new SocketClient();
-    }
-
     ///------------------------------------------------------------------------------------
     public override void StartEx()
     {
+        m_socket = new SocketClient();
         m_socket.OnRegister();
     }
 

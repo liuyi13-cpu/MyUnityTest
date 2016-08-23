@@ -8,16 +8,14 @@ public class ATest_Sound : MonoBehaviour
         // Debugger.useLog = false;
         Debugger.Log("Test Log");
         Debugger.LogWarning("Test LogWarning");
-        Debugger.LogError("Test LogError");
+       //  Debugger.LogError("Test LogError");
     }
 
     void OnGUI()
     {
         if (GUI.Button(new Rect(100, 0, 150, 30), "Load"))
         {
-            audioSource.clip = Resources.Load("Audios/Ambience_Audios/Amb_Snow") as AudioClip;
-            //var clip = audioSource.clip;
-            //Resources.UnloadAsset(clip);
+            audioSource.clip = Resources.Load("Audios/Amb_Thunder") as AudioClip;
         }
         else if (GUI.Button(new Rect(100, 40, 150, 30), "Play Loop"))
         {
