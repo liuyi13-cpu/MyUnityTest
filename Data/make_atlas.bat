@@ -1,10 +1,15 @@
 @echo on
 
 set TOOL=Tools\TexturePacker\bin\TexturePacker.exe
+set UNITY="C:\Program Files\Unity\Editor\Unity.exe"
 set OUTPATH=..\Assets\ATest\TexturePacker
+set PROJ_PATH=%cd%\..\
 echo ********************************
 echo *******  export plist  *********
 echo ********************************
+
+rem 调用Unity方法
+call %UNITY% -quit -batchmode -projectPath %PROJ_PATH% -executeMethod CreateAssetBundles.BuildAllAssetBundles arg1 arg2 
 
 
 rem set DATA_IN_PATH=Main,MOS_bullet

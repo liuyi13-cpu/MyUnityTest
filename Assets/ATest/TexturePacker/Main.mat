@@ -171,12 +171,12 @@ Material:
         second: 15
       data:
         first:
-          name: _Focus
-        second: -100
-      data:
-        first:
           name: _UseUIAlphaClip
         second: 0
+      data:
+        first:
+          name: _Focus
+        second: -100
     m_Colors:
       data:
         first:

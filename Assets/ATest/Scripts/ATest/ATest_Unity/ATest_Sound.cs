@@ -10,13 +10,6 @@ public class ATest_Sound : MonoBehaviour
         Debugger.Log("Test Log");
         Debugger.LogWarning("Test LogWarning");
         //  Debugger.LogError("Test LogError");
-
-        var hs = new HashSet<AudioSource>();
-        var hs1 = new HashSet<AudioSource>();
-        hs.Add(audioSource);
-
-        hs.CopyTo(hs1);
-
     }
 
     void OnGUI()
