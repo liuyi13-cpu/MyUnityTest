@@ -36,5 +36,10 @@ namespace Gc.Game.Test
             yield return null;
         }
 
+
+        void TestGC()
+        {
+            Utils.ClearMemory();
+        }
     }
 }

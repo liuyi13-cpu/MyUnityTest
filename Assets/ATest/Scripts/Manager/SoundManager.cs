@@ -16,7 +16,7 @@ public class SoundManager : Base
     {
         if (m_bgm == null)
         {
-            m_bgm
+            // m_bgm
         }
     }
 
@@ -24,5 +24,5 @@ public class SoundManager : Base
     {
     }
 
-    AudioSource
+    // AudioSource
 }
