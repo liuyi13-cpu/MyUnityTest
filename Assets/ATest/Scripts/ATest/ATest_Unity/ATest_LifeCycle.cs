@@ -2,73 +2,70 @@
 using System.Text;
 using UnityEngine;
 
-namespace Gc.Game.Test
+public class ATest_LifeCycle : MonoBehaviour
 {
-    public class ATest_LifeCycle : MonoBehaviour
+    void Reset()
     {
-        void Reset()
-        {
-            // Editor模式下 添加脚本或者右键调用Reset命令
-            Debugger.Log("ATest_LifeCycle:Reset");
-        }
+        // Editor模式下 添加脚本或者右键调用Reset命令
+        Debugger.Log("ATest_LifeCycle:Reset");
+    }
 
-        void Awake()
-        {
-            Debugger.Log("ATest_LifeCycle:Awake");
-            
-            // goto OnDisable()
-            // this.enabled = false;
-            // else
-            // goto OnEnable()
-        }
+    void Awake()
+    {
+        Debugger.Log("ATest_LifeCycle:Awake");
 
-        void OnEnable()
-        {
-            Debugger.Log("ATest_LifeCycle:OnEnable");
-        }
-        void Start()
-        {
-            Debugger.Log("ATest_LifeCycle:Start");
+        // goto OnDisable()
+        // this.enabled = false;
+        // else
+        // goto OnEnable()
+    }
 
-            // OnDisable-OnDestroy
-            // Destroy(this);
-        }
+    void OnEnable()
+    {
+        Debugger.Log("ATest_LifeCycle:OnEnable");
+    }
+    void Start()
+    {
+        Debugger.Log("ATest_LifeCycle:Start");
 
-        void OnDisable()
-        {
-            Debugger.Log("ATest_LifeCycle:OnDisable");
-        }
+        // OnDisable-OnDestroy
+        // Destroy(this);
+    }
 
-        void FixedUpdate()
-        {
-            Debugger.Log("ATest_LifeCycle:FixedUpdate" + DateTime.Now + "   " + DateTime.Now.Millisecond);
-        }
+    void OnDisable()
+    {
+        Debugger.Log("ATest_LifeCycle:OnDisable");
+    }
 
-        void Update()
-        {
-            // Application.targetFrameRate = 10;
-            Debugger.Log("ATest_LifeCycle:Update" + DateTime.Now + "   " + DateTime.Now.Millisecond);
+    void FixedUpdate()
+    {
+        Debugger.Log("ATest_LifeCycle:FixedUpdate" + DateTime.Now + "   " + DateTime.Now.Millisecond);
+    }
 
-//             string str = "";
-//             for (int i = 0; i < 20000; i++)
-//             {
-//                 str += "1";
-//             }
-        }
+    void Update()
+    {
+        // Application.targetFrameRate = 10;
+        Debugger.Log("ATest_LifeCycle:Update" + DateTime.Now + "   " + DateTime.Now.Millisecond);
 
-        void LateUpdate()
-        {
-            Debugger.Log("ATest_LifeCycle:LateUpdate" + DateTime.Now + "   " + DateTime.Now.Millisecond);
-        }
+        //             string str = "";
+        //             for (int i = 0; i < 20000; i++)
+        //             {
+        //                 str += "1";
+        //             }
+    }
 
-//         void OnGUI()
-//         {
-//             Debugger.Log("ATest_LifeCycle:OnGUI");
-//         }
+    void LateUpdate()
+    {
+        Debugger.Log("ATest_LifeCycle:LateUpdate" + DateTime.Now + "   " + DateTime.Now.Millisecond);
+    }
 
-        void OnDestroy()
-        {
-            Debugger.Log("ATest_LifeCycle:OnDestroy");
-        }
+    //         void OnGUI()
+    //         {
+    //             Debugger.Log("ATest_LifeCycle:OnGUI");
+    //         }
+
+    void OnDestroy()
+    {
+        Debugger.Log("ATest_LifeCycle:OnDestroy");
     }
 }

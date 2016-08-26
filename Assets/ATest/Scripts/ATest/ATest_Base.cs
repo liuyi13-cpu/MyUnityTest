@@ -1,17 +1,14 @@
 ﻿
 using System;
 
-namespace Gc.Game.Test
+public abstract class ATest_Base : IDisposable
 {
-    public abstract class ATest_Base : IDisposable
+    public virtual void Test()
     {
-        public virtual void Test()
-        {
-            Debugger.Log("ATest_Base:Test");
-        }
+        Debugger.Log("ATest_Base:Test");
+    }
 
-        public virtual void Dispose()
-        {
-        }
+    public virtual void Dispose()
+    {
     }
 }

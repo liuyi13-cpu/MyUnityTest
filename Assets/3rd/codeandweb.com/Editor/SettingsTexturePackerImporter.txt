@@ -1,5 +1,8 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/ATest/BG_Test/Background_Image_Wireframe_0.tpsheet
 textureFileNames:
+- Assets/ATest/BG_Test/Background_Image_Wireframe_0.png
 normalmapFileNames:
+- 

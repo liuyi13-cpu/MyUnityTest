@@ -1,8 +1,5 @@
 ﻿
-namespace Gc.Game.Test
+public interface IATest
 {
-    public interface IATest
-    {
-        void Test();
-    }
+    void Test();
 }

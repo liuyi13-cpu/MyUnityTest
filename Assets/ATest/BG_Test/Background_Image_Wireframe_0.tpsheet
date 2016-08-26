@@ -1,0 +1,11 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: Background_Image_Wireframe_0.png (2048 x 2048)
+# $TexturePacker:SmartUpdate:ea35580a689c53bfa7917bc5988031f1:20be560b4ecf411ce21adfc28771cac1:0b82b48b2d3caa42a1fe36c83aa4506b$
+#
+
+Background_Image_Wireframe;0;968;1920;1080;0.5;0.5
