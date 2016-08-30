@@ -1,8 +1,14 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/3rd/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/ATest/BG_Test/Background_Image_Wireframe_0.tpsheet
+- Assets/ATest/TexturePacker/Main.tpsheet
 textureFileNames:
+- Assets/3rd/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/ATest/BG_Test/Background_Image_Wireframe_0.png
+- Assets/ATest/TexturePacker/Main.png
 normalmapFileNames:
+- Assets/3rd/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
