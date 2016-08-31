@@ -17,6 +17,7 @@ public class ATest : MonoBehaviour
         TestType_Obj,       // 面向对象
         TestType_Ref,       // 引用测试
         TestType_String,    // 字符串测试
+        TestType_Sqlite,    // 数据库
     }
 
     // Use this for initialization
@@ -24,10 +25,14 @@ public class ATest : MonoBehaviour
     {
         // TestDebug();
         // Test_unsafe();
-        TestType testType = TestType.TestType_Macro;
+        TestType testType = TestType.TestType_Sqlite;
         ATest_Base test = null;
         switch (testType)
         {
+            case TestType.TestType_Sqlite:
+                test = new ATest_SQLite();
+                break;
+
             case TestType.TestType_Lua:
                 test = new ATest_Lua();
                 break;
