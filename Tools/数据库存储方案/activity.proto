@@ -1,0 +1,27 @@
+option java_package = "com.kongzhong.pmc.proto.activity";
+option java_outer_classname = "ActivityProtos";
+
+message ActivityProto {
+	
+	repeated ActivityBean beans = 1;
+
+	message ActivityBean {
+
+		required int32 id = 1;
+		optional int32 serverId = 2;
+		optional int32 actType = 3;
+		optional int32 resident = 4;
+		optional string start_date = 5;
+		optional string end_date = 6;
+		optional string start_week = 7;
+		optional string start_time = 8;
+		optional string end_time = 9;
+		optional string jump_target = 10;
+		optional string enter_icon = 11;
+		optional string detail_bg = 12;
+		optional string act_push = 13;
+		optional string detail_title = 14;
+		optional string text = 15;
+		optional int32 priority = 16;
+	}
+}
