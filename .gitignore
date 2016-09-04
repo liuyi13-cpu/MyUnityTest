@@ -1,5 +1,6 @@
 .vs/*
 Library/*
 Temp/*
-*.csproj
+MyUnityTest.CSharp.csproj
+MyUnityTest.CSharp.Editor.csproj
 MyUnityTest.sln
