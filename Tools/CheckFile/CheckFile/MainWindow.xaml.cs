@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Windows;
 
 namespace CheckFile
@@ -41,39 +42,41 @@ namespace CheckFile
                 List<FileData> lstFileData = new List<FileData>();
                 lstFileData = DirectoryHelper.GetAllFiles(tbRe.Text);
                 List<string> checkf = new List<string>();
-                string t = string.Empty;
+                StringBuilder builder = new StringBuilder();
                 foreach (FileData iFileData in lstFileData)
                 {
                     if (isInValidTexture(iFileData.Name))
                     {
-                        t += "无效的格式：" + iFileData.FullName + Environment.NewLine;
+                        builder.Append("无效的格式：").AppendLine(iFileData.FullName);
                     }
                     else if (isValidTexture(iFileData.Name))
                     {
-                        if (lstFileData.Where(x => x.NameOnly == iFileData.NameOnly).Count() > 1)
+                        if (!checkf.Contains(iFileData.NameOnly))
                         {
-                            if (!checkf.Contains(iFileData.NameOnly))
-                            {
-                                checkf.Add(iFileData.NameOnly);
+                            checkf.Add(iFileData.NameOnly);
 
-                                foreach (FileData jFileData in lstFileData)
+                            foreach (FileData jFileData in lstFileData)
+                            {
+                                bool exist = false;
+                                if (isValidTexture(jFileData.Name)
+                                    && jFileData.FullName != iFileData.FullName 
+                                    && jFileData.NameOnly == iFileData.NameOnly)
                                 {
-                                    // 只检查图片
-                                    if (isValidTexture(jFileData.Name))
-                                    {
-                                        if (lstFileData.Where(x => x.NameOnly == jFileData.NameOnly).Count() > 1)
-                                        {
-                                            t += jFileData.FullName + Environment.NewLine;
-                                        }
-                                    }
+                                    builder.AppendLine(jFileData.FullName);
+                                    exist = true;
                                 }
-                                t += "重复！" + Environment.NewLine;
+
+                                if (exist)
+                                {
+                                    builder.AppendLine(iFileData.FullName);
+                                    builder.AppendLine("重复！");
+                                }
                             }
                         }
                     }
                 }
-               
-                BatMessage pBatMessage = new BatMessage(t);
+
+                BatMessage pBatMessage = new BatMessage(builder.ToString());
                 pBatMessage.ShowDialog();
             }
             catch (Exception ex)
