@@ -11,4 +11,8 @@ public abstract class ATest_Base : IDisposable
     public virtual void Dispose()
     {
     }
+
+    public virtual void UpdateEx()
+    {
+    }
 }

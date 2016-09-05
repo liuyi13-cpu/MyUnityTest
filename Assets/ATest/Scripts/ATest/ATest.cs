@@ -6,6 +6,8 @@ using Gc.Game.Test;
 
 public class ATest : MonoBehaviour
 {
+    ATest_Base curTest;
+
     // 测试类型
     enum TestType
     {
@@ -18,6 +20,7 @@ public class ATest : MonoBehaviour
         TestType_Ref,       // 引用测试
         TestType_String,    // 字符串测试
         TestType_Sqlite,    // 数据库
+        TestType_Foreach,
     }
 
     // Use this for initialization
@@ -25,10 +28,14 @@ public class ATest : MonoBehaviour
     {
         // TestDebug();
         // Test_unsafe();
-        TestType testType = TestType.TestType_Sqlite;
+        TestType testType = TestType.TestType_Foreach;
         ATest_Base test = null;
         switch (testType)
         {
+            case TestType.TestType_Foreach:
+                test = new ATest_Dictionary();
+                break;
+
             case TestType.TestType_Sqlite:
                 test = new ATest_SQLite();
                 break;
@@ -69,6 +76,8 @@ public class ATest : MonoBehaviour
                 break;
         }
 
+        curTest = test;
+
         if (test != null)
         {
             test.Test();
@@ -78,6 +87,10 @@ public class ATest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (curTest != null) 
+        {
+            curTest.UpdateEx();
+        }
     }
 
     void TestDebug()
