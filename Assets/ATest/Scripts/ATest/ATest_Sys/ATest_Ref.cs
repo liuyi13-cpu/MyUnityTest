@@ -39,6 +39,15 @@ public class ATest_Ref : ATest_Base
         MyClass class1 = new MyClass();
         MyClass class2 = new MyClass();
         TestRefClass(class1, ref class2);
+
+
+        // Int num1 = null;
+        int? num = null;
+        num = 5;
+        if (num != null)
+        {
+            // 值类型判定null
+        }
     }
 
     void TestRefInt(int a, ref int b, out int c, string str, ref string str1)
