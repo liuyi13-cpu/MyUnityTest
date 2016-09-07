@@ -12,6 +12,7 @@ public class ATest_LifeCycle : MonoBehaviour
 
     void Awake()
     {
+        // Debugger.useLog = false;
         Debugger.Log("ATest_LifeCycle:Awake");
 
         // goto OnDisable()

@@ -26,7 +26,7 @@ public class ATest : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        // TestDebug();
+        TestDebug();
         // Test_unsafe();
         TestType testType = TestType.TestType_Foreach;
         ATest_Base test = null;
@@ -96,10 +96,10 @@ public class ATest : MonoBehaviour
     void TestDebug()
     {
         bool debug = Debug.developerConsoleVisible;
-        Debugger.Log(debug);
+        Debug.LogError(debug);
 
         Debug.developerConsoleVisible = true;
-        Debugger.Log(Debug.developerConsoleVisible);
+        Debug.LogError(Debug.developerConsoleVisible);
     }
 
     // 指针测试
