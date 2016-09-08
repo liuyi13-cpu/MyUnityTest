@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class Base
+public class Base : IDisposable
 {
 
     // Use this for initialization
@@ -23,5 +24,10 @@ public class Base
 
     public virtual void OnDestroyEx()
     {
+    }
+
+    public virtual void Dispose()
+    {
+        throw new NotImplementedException();
     }
 }

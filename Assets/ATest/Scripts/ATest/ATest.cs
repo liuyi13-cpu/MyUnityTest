@@ -26,9 +26,9 @@ public class ATest : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        TestDebug();
+        // TestDebug();
         // Test_unsafe();
-        TestType testType = TestType.TestType_Foreach;
+        TestType testType = TestType.TestType_AB;
         ATest_Base test = null;
         switch (testType)
         {

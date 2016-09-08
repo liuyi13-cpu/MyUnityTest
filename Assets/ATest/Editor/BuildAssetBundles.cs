@@ -17,7 +17,7 @@ public class CreateAssetBundles
     [MenuItem("Assets/Build AssetBundles clean")]
     static void BuildAllAssetBundlesClean()
     {
-        BuildPipeline.BuildAssetBundles("Assets/ATest/AssetBundles1",
+        BuildPipeline.BuildAssetBundles("Assets/StreamingAssets",
             BuildAssetBundleOptions.ForceRebuildAssetBundle
             | BuildAssetBundleOptions.AppendHashToAssetBundleName
             | BuildAssetBundleOptions.UncompressedAssetBundle);
