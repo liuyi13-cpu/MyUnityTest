@@ -1,9 +1,16 @@
 ﻿using UnityEngine;
-using System.Collections;
-using System;
 
-public class Base : IDisposable
+public class Base
 {
+    /// <summary>
+    /// 父节点
+    /// </summary>
+    protected Transform m_Root;
+
+    protected Base(Transform parent = null)
+    {
+        m_Root = parent;
+    }
 
     // Use this for initialization
     public virtual void StartEx()
@@ -24,10 +31,5 @@ public class Base : IDisposable
 
     public virtual void OnDestroyEx()
     {
-    }
-
-    public virtual void Dispose()
-    {
-        throw new NotImplementedException();
     }
 }
