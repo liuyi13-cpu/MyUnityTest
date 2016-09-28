@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SQL2ErrorMessageClassModel
 {
+#if DB_ERROR_MESSSAGE_CONST
     const string CLASS_NAME = "DB_ERROR_MESSSAGE_CONST";
 
     Dictionary<string, DB_Error_message> textKey = new Dictionary<string, DB_Error_message>();
@@ -73,4 +74,5 @@ public class SQL2ErrorMessageClassModel
 
         return builder;
     }
+#endif
 }

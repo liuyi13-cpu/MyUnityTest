@@ -60,8 +60,6 @@ public class ResManager : MonoBehaviour
         var request = AssetBundleManager.Initialize();
         if (request != null)
             yield return StartCoroutine(request);
-
-        AssetBundle.LoadFromFile
     }
 
     public GameObject Load(string path)

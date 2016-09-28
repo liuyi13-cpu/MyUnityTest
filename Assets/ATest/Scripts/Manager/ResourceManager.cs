@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ResourceManager : Base
 {
-    const string PATH = "D:/work/project/Unity/Unity_Research/Researcher/WangXuePing/XTest/Assets/ATest/AssetBundles/";
-    const string MANIFEST_NAME = "AssetBundles";
+    const string PATH = "D:/work/github/MyUnityTest/AssetBundles/Android/";
+    const string MANIFEST_NAME = "Android";
 
     Dictionary<string, AssetBundle> cacheAB = new Dictionary<string, AssetBundle>();
 
@@ -24,7 +24,7 @@ public class ResourceManager : Base
 #endif
     }
 
-    void loadAssetBundleManifest()
+    public void loadAssetBundleManifest()
     {
         var ab = loadAssetBundles(MANIFEST_NAME, false);
         if (ab)
@@ -94,7 +94,7 @@ public class ResourceManager : Base
         return ab;
     }
 
-    public override void Dispose()
+    public void Dispose()
     {
         cacheAB.Clear();
     }

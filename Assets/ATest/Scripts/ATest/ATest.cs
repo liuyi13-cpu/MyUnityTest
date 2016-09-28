@@ -28,7 +28,7 @@ public class ATest : MonoBehaviour
     {
         // TestDebug();
         // Test_unsafe();
-        TestType testType = TestType.TestType_Ref;
+        TestType testType = TestType.TestType_AB;
         ATest_Base test = null;
         switch (testType)
         {

@@ -68,7 +68,7 @@ public class Excel2Class : Editor
     static void MakeErrorMessageConstClass()
     {
         var model = new SQL2ErrorMessageClassModel();
-        model.Export();
+        // model.Export();
     }
 
     static void _Process(string title, ProcessType type)

@@ -23,6 +23,7 @@ public class SQL2TextConstClassModel
 
     void LoadDB()
     {
+#if SQL2TextConstClassModel
         string path = Path.Combine(Application.persistentDataPath, "tk.db");
         DBHelper.Instance.OpenConnection(path);
 
@@ -43,6 +44,7 @@ public class SQL2TextConstClassModel
         });
 
         DBHelper.Instance.CloseConnection();
+#endif
     }
 
     // 生成类
